@@ -1,0 +1,11 @@
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.exe
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.deps.json
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.json
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\Win10\OneDrive\Google Drive\c#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
