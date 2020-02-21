@@ -4,15 +4,16 @@ using System.Collections.Generic;
 
 namespace GradeBook
 {
+    public delegate void GradeAddedDelegate(object sender, EventArgs args); //first parameter is who is sending, second is arguments
     public class Book
     {
-        public Book(string name)
+        public Book(string name) //Constructor
         {
             grades = new List<double>();
             Name = name;
         }
 
-        public void AddLetterGrade(char letter)
+        public void AddLetterGrade(char letter) //can be overloaded (have the same name as another method) since it has a different signature
         {
             switch (letter)
             {
@@ -34,15 +35,20 @@ namespace GradeBook
 
         public void AddGrade(double grade)
         {
-            if (grade <= 100 && grade >= 0)
+            if (grade <= 100 && grade >= 0) //only adds grade if between 0 and 100
             {
                 grades.Add(grade);
+                if (GradeAdded != null)
+                {
+                    GradeAdded(this, new EventArgs()); //sends an event from this to the Eventsubscriber
+                }
             }
             else
             {
                 throw new ArgumentException($"Invalid {nameof(grade)}");
             }
         }
+        public event GradeAddedDelegate GradeAdded;
         public Statistics GetStats()
         {
             var result = new Statistics();
@@ -79,8 +85,13 @@ namespace GradeBook
             return result;
         }
         public List<double> grades;
+        public string Name //READ ONLY if setter is listes as private. 
+        {
+            get;
+            set; //making it private encapsulates the state
+        }
 
-        public string Name;
+        public const string CATEGORY = "Science"; // readonly = can only be set in constructor or initialization. const = (PUT UPPERCASE)cannot be changes once initialized
 
     }
 }
